@@ -6,7 +6,7 @@ git clone https://github.com/IBT-learning/dockerize-python-flask
 ```
 2. Create a Dockerfile
 
-Create a Dockerfile in this directory and start editing it with your favorite text editor. The solution is in the solution folder, but try to build it yourself. You will need to 
+Create a Dockerfile in this directory and start editing it with your favorite text editor. The solution is in the solution branch, but try to build it yourself. You will need to use the instructions below to create a Docker image.
 
 FROM: Specifies the base image to use for the build.
 RUN: Runs a command during the image build process.
