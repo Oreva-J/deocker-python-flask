@@ -28,7 +28,19 @@ docker build -t myflask:v1.0.0 .
 docker run -d -p 8337:3000 myflask:v1.0.0
 ```
 
-5. Test your container
+5. Verify your container started
+
+Find the container id and it's status
+```
+docker ps -a
+```
+If the status isn't running, troubleshoot with the `docker logs` command
+
+```
+docker logs <container-id>
+```
+
+6. Test your container
 
 ```
 curl https://localhost:8337
