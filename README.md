@@ -49,3 +49,7 @@ curl http://localhost:8337
 # Challenage
 
 Create a docker compose file for your application 
+
+# Having issues with the basic lab? Here is the solution steps:
+
+https://gist.github.com/devopswithbrad/77ad3255cdf21edb2da29fa46cb5a77a
